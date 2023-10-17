@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kanit:ital,wght@0,400;1,300&family=Lilita+One&family=Nunito:wght@300&family=Poppins:wght@100;200;300;400;500;600;700&family=Press+Start+2P&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #191825;
+}
+
+.principal{
+    width: 75vmin;
+    height: 85vmin;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 8px;
+    background: #293447;
+}
+
+.detalhes-jogo{
+    color: #CBE4DE;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-game{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+    background: #212837;
+}
+
+.play-game .food{
+    background: #B70404;
+    border-radius: 2px;
+
+}
+
+.play-game .head{
+    background: #9DB2BF;
+    border-radius: 2px;
+}
+
+.controles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.controles i{
+    padding: 25px 0;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    width: calc(100% / 4);
+    border-right: 2px solid #000;
+}
